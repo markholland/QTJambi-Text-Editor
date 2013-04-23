@@ -13,6 +13,7 @@ import com.trolltech.qt.core.QSize;
 import com.trolltech.qt.core.QTextStream;
 import com.trolltech.qt.core.Qt;
 import com.trolltech.qt.gui.QApplication;
+import com.trolltech.qt.gui.QCloseEvent;
 import com.trolltech.qt.gui.QCursor;
 import com.trolltech.qt.gui.QFileDialog;
 import com.trolltech.qt.gui.QFont;
@@ -263,6 +264,18 @@ public class MainApplication extends QMainWindow {
     private void on_action_Quit_triggered() {
     	if(checkAndSave())												//Check if user wishes to save current document
     		QApplication.instance().quit();								//Quit the application
+    }
+    
+    /**
+     * Override method to check whether to save
+     * before closing
+     */
+    public void closeEvent(QCloseEvent event)
+    {
+        if (checkAndSave())												//Check if user wishes to save current document
+            event.accept();												//Allow program to close
+        else
+            event.ignore();												//Don't close program
     }
     
     
