@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading ui file 'MainApplication.jui'
 **
-** Created: Mon 22. Apr 18:37:40 2013
+** Created: Tue 23. Apr 18:13:43 2013
 **      by: Qt User Interface Compiler version 4.5.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling ui file!
@@ -235,7 +235,7 @@ public class Ui_MainApplication implements com.trolltech.qt.QUiForm<QMainWindow>
         action_Bold.setToolTip(com.trolltech.qt.core.QCoreApplication.translate("MainApplication", "Bold", null));
         action_Bold.setShortcut(com.trolltech.qt.core.QCoreApplication.translate("MainApplication", "Ctrl+B", null));
         menu_File.setTitle(com.trolltech.qt.core.QCoreApplication.translate("MainApplication", "&File", null));
-        menu_About.setTitle(com.trolltech.qt.core.QCoreApplication.translate("MainApplication", "&About", null));
+        menu_About.setTitle(com.trolltech.qt.core.QCoreApplication.translate("MainApplication", "&Help", null));
         menuEdit.setTitle(com.trolltech.qt.core.QCoreApplication.translate("MainApplication", "Edit", null));
         menuInset.setTitle(com.trolltech.qt.core.QCoreApplication.translate("MainApplication", "Insert", null));
         menuSearch.setTitle(com.trolltech.qt.core.QCoreApplication.translate("MainApplication", "Search", null));

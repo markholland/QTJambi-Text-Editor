@@ -46,7 +46,7 @@
    </widget>
    <widget class="QMenu" name="menu_About">
     <property name="title">
-     <string>&amp;About</string>
+     <string>&amp;Help</string>
     </property>
     <addaction name="action_About"/>
    </widget>
